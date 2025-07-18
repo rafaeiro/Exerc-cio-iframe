@@ -17,7 +17,7 @@ main {
     height: 100vh;
     position: relative;
     background-color: green;
-    background-image: url('../Exerc-cio-iframe/pacote-d013/imagens/fundo-madeira.jpg');
+    background-image: url('../pacote-d013/imagens/fundo-madeira.jpg');
     background-size: cover;
     background-attachment: fixed;
     }
@@ -27,8 +27,15 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
-    background-image: url('../Exerc-cio-iframe/pacote-d013/imagens/frame-iphone.png') ;
-
+    background-image: url('../pacote-d013/imagens/frame-iphone.png') no-repeat top center;
     height: 627px;
     width: 311px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
