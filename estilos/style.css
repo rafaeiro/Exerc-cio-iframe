@@ -27,7 +27,7 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
-    background-image: url('../pacote-d013/imagens/frame-iphone.png') no-repeat top center;
+    background-image: url('../pacote-d013/imagens/frame-iphone.png') ;
     height: 627px;
     width: 311px;
 }
@@ -38,4 +38,22 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(41, 39, 39, 0.4);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate( -1px, 1px);
+    box-shadow: 5px 5px 10px rgba(41, 39, 39, 0.4);
+    transition: tranform .3s, border 1s;
 }
